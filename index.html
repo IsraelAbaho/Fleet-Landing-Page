@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link scss ============================= -->
+    <link rel="stylesheet" href="./main.css">
+    <!-- Link icons cdn ============================= -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logoDiv flex">
+            <img src="./img/logo.png" alt="Logo Image">
+            <span>fleet</span>
+        </div>
+        <div class="selection">
+            <select name="" id="">
+                <option value="" selected>Travellers</option>
+                <option value="">Cars Renting</option>
+                <option value="">Cycling</option>
+            </select>
+        </div>
+        <div class="navBar">
+            <div class="navBarContent grid">
+                <span class="span"><a href="#">Support</a></span>
+                <span class="span">
+                    <a href="#" class="spanFlex">
+                    <i class='bx bx-globe icon'></i>
+                    <span>Language</span>
+                    </a>
+                </span>
+
+                <span class="btn span">
+                     Property
+                </span>
+            </div>
+        </div>
+
+        <div class="toggleNavBar navBarBtn" id="toggleNavBar">
+            <i class='bx bx-grid-alt icon' ></i>
+        </div>
+        <div class="user flex">
+            <i class='bx bxs-bell-ring icon' ></i>
+            <img src="./img/User.jpg" alt="User Image" class="userImage">
+        </div>
+    </header>
+
+
+    <!-- Hero section =================== -->
+
+    <section class="section container hero">
+         <div class="sectionContent flex">
+             <h1 class="title">Things to do</h1>
+             <span class="subTitle">Find and book a great experience!</span>
+             <div class="heroBtn">
+                 Start you search
+             </div>
+         </div>
+         <div class="bottomDiv">
+          <div class="menu flex">
+              <li>Flights</li>
+              <li>Stays</li>
+              <li>Cars</li>
+          </div>
+          <div class="searchSection grid">
+                <div class="searchDiv flex ">
+                    <i class='bx bx-map icon' ></i>
+                    <div class="inputDiv">
+                        <label for="Search">Location</label>
+                        <input type="text" id="Search" placeholder="Where are you going?">
+                    </div>
+                </div>
+               <div class="dateDiv flex">
+                <i class='bx bx-calendar-heart icon' ></i>
+                <div class="inputDiv">
+                    <label for="date">Date</label>
+                    <input type="text" id="date" placeholder="Add date">
+                  </div>
+               </div>   
+               <div class="bottomDivBtn">
+                    <i class='bx bx-search icon' ></i>
+               </div>            
+          </div>
+         </div>
+    </section>
+
+    <!-- link JavaScript file -->
+    <script src="./main.js"></script>
+</body>
+</html>
